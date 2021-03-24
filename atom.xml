@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hold on!</title>
+  
+  <subtitle>随心所欲</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://umlink.github.io/"/>
+  <updated>2021-03-24T11:07:49.008Z</updated>
+  <id>https://umlink.github.io/</id>
+  
+  <author>
+    <name>umlink</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://umlink.github.io/2021/03/24/test/"/>
+    <id>https://umlink.github.io/2021/03/24/test/</id>
+    <published>2021-03-24T11:05:45.000Z</published>
+    <updated>2021-03-24T11:07:49.008Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>222</li><li>333</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;222&lt;/li&gt;
+&lt;li&gt;333&lt;/li&gt;
+&lt;/ol&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="测试" scheme="https://umlink.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>股票大作手回忆录</title>
+    <link href="https://umlink.github.io/2020/01/21/%E8%82%A1%E7%A5%A8%E5%A4%A7%E4%BD%9C%E6%89%8B%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+    <id>https://umlink.github.io/2020/01/21/股票大作手回忆录/</id>
+    <published>2020-01-21T07:30:25.000Z</published>
+    <updated>2020-01-21T07:46:49.206Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 12 2020 20:32:34 GMT+0800 (GMT+08:00) --><h2 id="第一章-独立特行的少年赌客人"><a href="#第一章-独立特行的少年赌客人" class="headerlink" title="第一章 独立特行的少年赌客人"></a>第一章 独立特行的少年赌客人</h2><blockquote><p>在个㢟规律性波动中赚钱</p></blockquote><h2 id="第二章-独立特行的少年赌客人"><a href="#第二章-独立特行的少年赌客人" class="headerlink" title="第二章 独立特行的少年赌客人"></a>第二章 独立特行的少年赌客人</h2><blockquote><p>永远不要对时长生气</p></blockquote><h2 id="第三章-重返华尔街遭受重创"><a href="#第三章-重返华尔街遭受重创" class="headerlink" title="第三章 重返华尔街遭受重创"></a>第三章 重返华尔街遭受重创</h2><blockquote><p>适应股市，而不是让股市适应你</p></blockquote><h2 id="第四章-卧薪尝胆三反华尔街"><a href="#第四章-卧薪尝胆三反华尔街" class="headerlink" title="第四章 卧薪尝胆三反华尔街"></a>第四章 卧薪尝胆三反华尔街</h2><blockquote><p>找到正确的操作方法才能赚钱</p></blockquote><h2 id="第五章-“老火鸡”的至理名言"><a href="#第五章-“老火鸡”的至理名言" class="headerlink" title="第五章 “老火鸡”的至理名言"></a>第五章 “老火鸡”的至理名言</h2><blockquote><p>成功的秘诀再约预判大势和百信等待</p></blockquote><h2 id="第六章-最昂贵的一课"><a href="#第六章-最昂贵的一课" class="headerlink" title="第六章 最昂贵的一课"></a>第六章 最昂贵的一课</h2><blockquote><p>听信别人不如相信自己</p></blockquote><h2 id="第七章-老手怀特的故事"><a href="#第七章-老手怀特的故事" class="headerlink" title="第七章 老手怀特的故事"></a>第七章 老手怀特的故事</h2><blockquote><p>判断何时的出手时机（稳住，<code>涨</code>时试探性的买入，不要一味的找低谷买入）</p></blockquote><h2 id="第八章-再次破产后的绝地反击"><a href="#第八章-再次破产后的绝地反击" class="headerlink" title="第八章 再次破产后的绝地反击"></a>第八章 再次破产后的绝地反击</h2><blockquote><p>顺势而为，择机而动</p></blockquote><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Thu Mar 12 2020 20:32:34 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;第一章-独立特行的少年赌客人&quot;&gt;&lt;a href=&quot;#第一章-独立特行的少年赌客人&quot; class=&quot;headerlink&quot; title=
+      
+    
+    </summary>
+    
+    
+    
+      <category term="股票" scheme="https://umlink.github.io/tags/%E8%82%A1%E7%A5%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小计浏览器缓存策略</title>
+    <link href="https://umlink.github.io/2020/01/21/cache-control/"/>
+    <id>https://umlink.github.io/2020/01/21/cache-control/</id>
+    <published>2020-01-21T06:12:24.000Z</published>
+    <updated>2020-01-21T07:55:30.120Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 12 2020 20:32:34 GMT+0800 (GMT+08:00) --><h2 id="一、强缓存"><a href="#一、强缓存" class="headerlink" title="一、强缓存"></a>一、强缓存</h2><blockquote><p>缓存未过期只取本地， 资源更新则GG。</p></blockquote><ul><li>Cache-Control <code>public, max-age=xxx</code></li><li>Expire</li></ul><h2 id="二、协商缓存"><a href="#二、协商缓存" class="headerlink" title="二、协商缓存"></a>二、协商缓存</h2><blockquote><p>每次都请求服务器？</p></blockquote><p>替换路径？</p><ul><li>hash <code>每次打包时生成的hash,不可用</code></li><li>chunkhash <code>单独chunk 的hash</code></li><li>contenthash <code>内容变化时的hash</code></li></ul><h2 id="三、ETag-amp-Last-Modified"><a href="#三、ETag-amp-Last-Modified" class="headerlink" title="三、ETag &amp; Last-Modified"></a>三、ETag &amp; Last-Modified</h2><ul><li>Nginx官方默认的ETag计算方式是为”文件最后修改时间16进制-文件长度16进制”。例：ETag： “59e72c84-2404”</li><li>Express框架使用了serve-static中间件来配置缓存方案，其中，使用了一个叫etag的npm包来实现etag计算</li><li>请求头带上了if-modified-since和if-none-match两个字段，则先判断etag，再判断last-modified</li></ul><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Thu Mar 12 2020 20:32:34 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;一、强缓存&quot;&gt;&lt;a href=&quot;#一、强缓存&quot; class=&quot;headerlink&quot; title=&quot;一、强缓存&quot;&gt;&lt;/a&gt;一、强缓存&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://umlink.github.io/2019/09/30/hello-world/"/>
+    <id>https://umlink.github.io/2019/09/30/hello-world/</id>
+    <published>2019-09-30T08:34:36.034Z</published>
+    <updated>2020-01-21T07:47:22.713Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 12 2020 20:32:34 GMT+0800 (GMT+08:00) --><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Thu Mar 12 2020 20:32:34 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
