@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://umlink.github.io/"/>
-  <updated>2021-03-25T02:02:49.304Z</updated>
+  <updated>2021-03-30T02:48:54.104Z</updated>
   <id>https://umlink.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何查看服务端日志?</title>
+    <link href="https://umlink.github.io/2021/03/30/view-log/"/>
+    <id>https://umlink.github.io/2021/03/30/view-log/</id>
+    <published>2021-03-30T01:59:41.000Z</published>
+    <updated>2021-03-30T02:48:54.104Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、直接查看文件内容"><a href="#一、直接查看文件内容" class="headerlink" title="一、直接查看文件内容"></a>一、直接查看文件内容</h2><blockquote><p>cat [-AbEnTv]</p></blockquote><h3 id="选项与参数"><a href="#选项与参数" class="headerlink" title="选项与参数"></a>选项与参数</h3><p>  -A ：相当于-vET的整合， 课列出一些特殊字符而不是空白而已<br>  -b ：列出行号，进针对非空白行做行号显示，空白行不会标记<br>  -E ：将结尾换行符$显示出来<br>  -n ：打印出行号，连同空白行也会有行号，与-b的选项不同<br>  -T :  将[tab]键以^I显示出来<br>  -v :  列出一些看不出来的特殊字符</p><blockquote><p>tac（和cat打印顺序相反）</p></blockquote><h2 id="二、翻页查看"><a href="#二、翻页查看" class="headerlink" title="二、翻页查看"></a>二、翻页查看</h2><blockquote><p>less less可前后翻页，不止向上查找，也可向下查找</p></blockquote><h3 id="按键-命令"><a href="#按键-命令" class="headerlink" title="按键/命令"></a>按键/命令</h3><p> [pagedown] ：向下翻页<br> [pageup] ：向上翻页<br> /字符串：在当前显示的内容（翻页进度位置），向下查找这个字符串关键字<br> ?字符串：向上查找字符串<br> n ：重复前一个查找，与/或?有关， 比如前一个命令是？表示向上查找，此时n会向上查找<br> N ：反向的重复前一个查找<br> g ：跳转到当前文件数据的第一行<br> G ：跳转到当前文件数据的最后一行<br> q ：退出当前文件的浏览</p><h2 id="三、数据截取"><a href="#三、数据截取" class="headerlink" title="三、数据截取"></a>三、数据截取</h2><blockquote><p>head</p></blockquote><p>head命令用来提取文件的前n行，一般配合使用-n选项。当指定的行数为负数-x时，则会打印出除了后面x行的其他所有数据。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">head -n 10 error.log</span><br></pre></td></tr></table></figure><blockquote><p>tail</p></blockquote><p>从文件尾部截取数据。tail也是工作中最常用的命令，因为可以利用-f选项，一直刷新获取文件尾部最新数据。</p><h3 id="选项与参数-1"><a href="#选项与参数-1" class="headerlink" title="选项与参数"></a>选项与参数</h3><p> -n : 查看后n行数据，注意当n后面值带“+”号表示从第x行开始， 如 tail -n +1000 test.txt<br> -f : 展示文件后面</p><h2 id="四、筛选日志"><a href="#四、筛选日志" class="headerlink" title="四、筛选日志"></a>四、筛选日志</h2><blockquote><p>grep</p></blockquote><p>example：查看文件包含 ‘hello’</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cat -n error.txt | grep &#39;hello&#39;</span><br><span class="line">tail -200f error.log | grep &#39;hello&#39;</span><br></pre></td></tr></table></figure><h2 id="五、其它"><a href="#五、其它" class="headerlink" title="五、其它"></a>五、其它</h2><blockquote><p><code>&gt;&gt;</code> : 文件追加重定向命令</p></blockquote><p>example：将 test.txt 的最后10行复制到hello.txt中</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail -n 10 test.txt &gt;&gt; hello.txt</span><br></pre></td></tr></table></figure><h2 id="六、组合使用示例"><a href="#六、组合使用示例" class="headerlink" title="六、组合使用示例"></a>六、组合使用示例</h2><p>example: 查看文件 10 ~ 20 行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">head -n 20 text.txt | tail -n 10</span><br><span class="line"></span><br><span class="line">cat -n test.txt | head -n 20 | tail -n 10</span><br></pre></td></tr></table></figure><p>参考文献：<a href="https://juejin.cn/post/6844904069627133966">https://juejin.cn/post/6844904069627133966</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;一、直接查看文件内容&quot;&gt;&lt;a href=&quot;#一、直接查看文件内容&quot; class=&quot;headerlink&quot; title=&quot;一、直接查看文件内容&quot;&gt;&lt;/a&gt;一、直接查看文件内容&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;cat [-AbEnTv]&lt;/p&gt;
+&lt;/block
+      
+    
+    </summary>
+    
+    
+      <category term="服务器" scheme="https://umlink.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="linux" scheme="https://umlink.github.io/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>webpack 优化思路</title>

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://umlink.github.io/2021/03/30/view-log/</loc>
+    
+    <lastmod>2021-03-30T02:48:54.104Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://umlink.github.io/2021/03/25/opt-webpack/</loc>
     
     <lastmod>2021-03-25T02:02:49.304Z</lastmod>
@@ -79,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://umlink.github.io/tags/index.html</loc>
+    <loc>https://umlink.github.io/404.html</loc>
     
     <lastmod>2019-09-30T09:41:59.374Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://umlink.github.io/404.html</loc>
+    <loc>https://umlink.github.io/tags/index.html</loc>
     
     <lastmod>2019-09-30T09:41:59.374Z</lastmod>
     
